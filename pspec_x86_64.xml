@@ -20,16 +20,16 @@
         <Files>
             <Path fileType="executable">/usr/bin</Path>
             <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="data">/usr/share/icons</Path>
             <Path fileType="data">/usr/share/FeedReader</Path>
             <Path fileType="data">/usr/share/glib-2.0</Path>
             <Path fileType="data">/usr/share/applications</Path>
             <Path fileType="data">/usr/share/dbus-1</Path>
-            <Path fileType="data">/root/.config/autostart</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2015-08-26</Date>
+        <Update release="2">
+            <Date>2015-08-31</Date>
             <Version>1.2</Version>
             <Comment>Packaging update</Comment>
             <Name>Justin Zobel</Name>
