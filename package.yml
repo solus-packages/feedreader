@@ -1,8 +1,8 @@
 name       : feedreader
-version    : 1.2.1
-release    : 3
+version    : 1.4
+release    : 4
 source     :
-    - https://launchpad.net/feedreader/1.2/1.2.1/+download/FeedReader-1.2.1.tar.gz : cb24d6dcef46080f2aa61fdc1b0187a8c52aedf913e6f63325ee46c631e5c87a
+    - https://launchpad.net/feedreader/1.4/1.4-final/+download/FeedReader-1.4.tar.gz : 707efe7a309704bc3cd361533e3699a81f591619a5295f5fc4902fe556aede4f
 license    : GPL-3.0
 summary    : FeedReader is a client for popular RSS-Web-Services such as TinyTinyRSS or Feeldy.
 description: |
