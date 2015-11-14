@@ -17,6 +17,9 @@
         <Description xml:lang="en">FeedReader is a client for popular RSS-Web-Services such as TinyTinyRSS or Feeldy.
 </Description>
         <PartOf>desktop</PartOf>
+        <RuntimeDependencies>
+            <Dependency>vilistextum</Dependency>
+        </RuntimeDependencies>
         <Files>
             <Path fileType="data">/usr/share/glib-2.0</Path>
             <Path fileType="data">/usr/share/dbus-1</Path>
@@ -28,8 +31,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2015-11-13</Date>
+        <Update release="5">
+            <Date>2015-11-14</Date>
             <Version>1.4</Version>
             <Comment>Packaging update</Comment>
             <Name>Justin Zobel</Name>

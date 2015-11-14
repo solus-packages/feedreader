@@ -1,6 +1,6 @@
 name       : feedreader
 version    : 1.4
-release    : 4
+release    : 5
 source     :
     - https://launchpad.net/feedreader/1.4/1.4-final/+download/FeedReader-1.4.tar.gz : 707efe7a309704bc3cd361533e3699a81f591619a5295f5fc4902fe556aede4f
 license    : GPL-3.0
@@ -18,6 +18,8 @@ builddeps  :
     - pkgconfig(rest-0.7)
     - pkgconfig(libnotify)
     - vala
+rundeps    :
+    - vilistextum
 setup      : |
     mkdir build
     cd build
