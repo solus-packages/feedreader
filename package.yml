@@ -1,8 +1,8 @@
 name       : feedreader
-version    : 1.4
-release    : 5
+version    : 1.4.1
+release    : 6
 source     :
-    - https://launchpad.net/feedreader/1.4/1.4-final/+download/FeedReader-1.4.tar.gz : 707efe7a309704bc3cd361533e3699a81f591619a5295f5fc4902fe556aede4f
+    - https://launchpad.net/feedreader/1.4/1.4.1/+download/FeedReader-1.4.1.tar.gz : 1a0fcaf3d6bbd6bc75e3ef85e2d00e63ad85b150c566212de3b8f58decd0cfeb
 license    : GPL-3.0
 summary    : FeedReader is a client for popular RSS-Web-Services such as TinyTinyRSS or Feeldy.
 description: |
@@ -26,7 +26,7 @@ setup      : |
     %cmake -DCMAKE_INSTALL_PREFIX=/usr -DWITH_LIBUNITY=OFF ..
 build      : |
     cd build
-    %make
+    %make -j1
 install    : |
     cd build
     %make_install
