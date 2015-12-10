@@ -18,8 +18,6 @@ builddeps  :
     - pkgconfig(rest-0.7)
     - pkgconfig(libnotify)
     - vala
-rundeps    :
-    - vilistextum
 setup      : |
     mkdir build
     cd build
