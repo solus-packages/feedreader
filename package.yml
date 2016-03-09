@@ -1,6 +1,6 @@
 name       : feedreader
 version    : 1.4.3
-release    : 9
+release    : 10
 source     :
     - https://launchpad.net/feedreader/1.4/1.4.3/+download/FeedReader-1.4.3.tar.gz : e43ceb9eb866c2e8e16d460b6914e6450b2c97fe62f0730a2ec67a3c7d7f0a3c
 license    : GPL-3.0
