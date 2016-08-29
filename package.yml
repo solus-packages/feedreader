@@ -1,8 +1,8 @@
 name       : feedreader
-version    : 1.6
-release    : 11
+version    : 1.6.1
+release    : 12
 source     :
-    - https://github.com/jangernert/FeedReader/archive/v1.6.0.tar.gz : 18890c831698bb33e6feca027d0817d965d36366d67d0733807a7ce366f769e1
+    - https://github.com/jangernert/FeedReader/archive/v1.6.1.tar.gz : 0e3921b795c9a96e92ac575cb21746775660e27bcd8546930904b901d649356f
 license    : GPL-3.0
 summary    : FeedReader is a client for popular RSS-Web-Services such as TinyTinyRSS or Feeldy.
 component  : desktop
