@@ -2,8 +2,8 @@
     <Source>
         <Name>feedreader</Name>
         <Packager>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Will Featherston</Name>
+            <Email>bennzoid@gmail.com</Email>
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>desktop</PartOf>
@@ -20,31 +20,51 @@
         <PartOf>desktop</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/article.html</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/DroidSans-Bold-webfont.eot</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/DroidSans-Bold-webfont.svg</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/DroidSans-Bold-webfont.ttf</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/DroidSans-Bold-webfont.woff</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/DroidSans-webfont.eot</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/DroidSans-webfont.svg</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/DroidSans-webfont.ttf</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/DroidSans-webfont.woff</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/opsn-itl-webfont.eot</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/opsn-itl-webfont.svg</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/opsn-itl-webfont.ttf</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/opsn-itl-webfont.woff</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/opsn-itl-webfont.woff2</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/opsn-reg-webfont.eot</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/opsn-reg-webfont.svg</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/opsn-reg-webfont.ttf</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/opsn-reg-webfont.woff</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/opsn-reg-webfont.woff2</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/opsn-sem-webfont.eot</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/opsn-sem-webfont.svg</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/opsn-sem-webfont.ttf</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/opsn-sem-webfont.woff</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/assets/opsn-sem-webfont.woff2</Path>
-            <Path fileType="data">/usr/share/FeedReader/ArticleView/style.css</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/libwebextension.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/plugins/feedbin.plugin</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/plugins/feedly.plugin</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/plugins/fresh.plugin</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/plugins/inoreader.plugin</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/plugins/libfeedbin.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/plugins/libfeedly.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/plugins/libfresh.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/plugins/libinoreader.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/plugins/liblocal.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/plugins/liboldreader.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/plugins/libowncloud.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/plugins/libttrss.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/plugins/local.plugin</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/plugins/oldreader.plugin</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/plugins/owncloud.plugin</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/plugins/ttrss.plugin</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/browser.plugin</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/instapaper.plugin</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/libbrowser.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/libinstapaper.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/libmail.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/libpocket.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/libtwitter.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/libwallabag.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/mail.plugin</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/pocket.plugin</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/twitter.plugin</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/wallabag.plugin</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsUI/feedbinUI.plugin</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsUI/feedlyUI.plugin</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsUI/freshUI.plugin</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsUI/inoreaderUI.plugin</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsUI/libfeedbinUI.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsUI/libfeedlyUI.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsUI/libfreshUI.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsUI/libinoreaderUI.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsUI/liblocalUI.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsUI/liboldreaderUI.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsUI/libowncloudUI.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsUI/libttrssUI.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsUI/localUI.plugin</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsUI/oldreaderUI.plugin</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsUI/owncloudUI.plugin</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsUI/ttrssUI.plugin</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.about.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.allthingsd.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.blog.163.com.txt</Path>
@@ -104,6 +124,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/9gag.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/README.md</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/aachener-nachrichten.de.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/abc-luxe.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/abc.es.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/abc.net.au.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/abcnews.go.com.txt</Path>
@@ -432,6 +453,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/focus-numerique.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/focus.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/fok.nl.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/foley.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/folklore.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/food.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/fool.com.txt</Path>
@@ -534,6 +556,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/hometheaterreview.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/hosted.ap.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/hosted2.ap.org.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/houstonchronicle.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/howtogeek.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/hs.fi.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ht.ly.txt</Path>
@@ -543,7 +566,9 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/hurriyet.com.tr.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/hvg.hu.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/hypebeast.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/iansommerville.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/icannabis.tumblr.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ici.radio-canada.ca.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/idealog.co.nz.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/idlewords.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/igen.fr.txt</Path>
@@ -552,11 +577,13 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ilounge.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ilyabirman.ru.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/imasters.com.br.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/imgcert.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/in.rbth.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/inc.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/indehekken.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/independent.co.uk.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/indiatimes.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/indiehackers.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/inessential.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/info.abril.com.br.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/infoq.com.txt</Path>
@@ -626,6 +653,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/landetsfria.se.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/lapin-blanc.blogs.docteo.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/laprensagrafica.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/lapresse.ca.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/laquadrature.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/lareviewofbooks.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/latimes.com.txt</Path>
@@ -774,6 +802,8 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/notebookcheck.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/nplusonemag.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/npr.org.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/nrc.nl.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/numerama.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/nybooks.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/nymag.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/nyteknik.se.txt</Path>
@@ -793,7 +823,9 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/orf.at.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/origo.hu.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/oschina.net.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/outsideonline.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pakmedia.tv.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/palmbeachpost.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pandagon.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pandodaily.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/panic.com.txt</Path>
@@ -809,6 +841,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/penny-arcade.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pentaxforums.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/perthnow.com.au.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/phastidio.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/philadelphiaeagles.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/philly.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/phonandroid.com.txt</Path>
@@ -823,13 +856,14 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pittsburghmagazine.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pittsburghpanthers.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pittscriptblog.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pjmedia.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/planet3dnow.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/planetsave.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/planetvita.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/playboy.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ploum.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/plus.google.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/plzkthxbai.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pocketnow.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pogue.blogs.nytimes.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/politico.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/politifact.com.txt</Path>
@@ -882,6 +916,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/reuters.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/revistapiaui.estadao.com.br.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/rezeptwelt.de.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/rhenus.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/robertsspaceindustries.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/robots.thoughtbot.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/rockpapershotgun.com.txt</Path>
@@ -916,6 +951,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/select.yeeyan.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/semiaccurate.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/seriouseats.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/servethehome.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/sf.curbed.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/sf.eater.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/sfgate.com.txt</Path>
@@ -1024,6 +1060,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/thegreatdiscontent.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/theguardian.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/theindychannel.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/theintercept.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/themarker.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/themillions.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/thenation.com.txt</Path>
@@ -1034,6 +1071,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/theoaklandpress.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/theonion.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/thepioneerwoman.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/thepointmag.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/theregister.co.uk.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/theroot.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/therumpus.net.txt</Path>
@@ -1090,6 +1128,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/utdailybeacon.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ux.artu.tv.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/vanityfair.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/variety.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/varsity.co.uk.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/vea.gov.vn.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/vedomosti.ru.txt</Path>
@@ -1109,6 +1148,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/vnexpress.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/voices.washingtonpost.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/volkskrant.nl.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/vox.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/vr-zone.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/vworker.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/waffle.wootest.net.txt</Path>
@@ -1119,6 +1159,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/watoday.com.au.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/web-libre.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/weblogs.asp.net.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/webmasters.googleblog.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/webupd8.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/webwereld.nl.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/weeklytimesnow.com.au.txt</Path>
@@ -1154,80 +1195,47 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/yosko.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/yostivanich.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/yourerie.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/youtube.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/zdnet.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ze.tt.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/zeit.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/zerodistraction.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/zerohedge.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/zerokspot.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/zhihu.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/zive.cz.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/feedreader-autostart.desktop</Path>
-            <Path fileType="data">/usr/share/FeedReader/gtk-css/basics.css</Path>
-            <Path fileType="data">/usr/share/FeedReader/gtk-css/dark.css</Path>
-            <Path fileType="data">/usr/share/FeedReader/gtk-css/elementary.css</Path>
-            <Path fileType="data">/usr/share/FeedReader/gtk-css/gtk.css</Path>
-            <Path fileType="data">/usr/share/FeedReader/libwebextension.so</Path>
-            <Path fileType="data">/usr/share/FeedReader/shortcuts.ui</Path>
-            <Path fileType="data">/usr/share/applications/feedreader.desktop</Path>
-            <Path fileType="data">/usr/share/dbus-1/services/feedreader.service</Path>
+            <Path fileType="data">/usr/share/FeedReader/org.gnome.FeedReader-autostart.desktop</Path>
+            <Path fileType="data">/usr/share/appdata/org.gnome.FeedReader.appdata.xml</Path>
+            <Path fileType="data">/usr/share/applications/org.gnome.FeedReader.desktop</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/org.gnome.FeedReader.Daemon.service</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.feedreader.feedbin.gschema.xml</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.feedreader.feedly.gschema.xml</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.feedreader.fresh.gschema.xml</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.feedreader.gschema.xml</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.feedreader.inoreader.gschema.xml</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.feedreader.keybindings.gschema.xml</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.feedreader.oldreader.gschema.xml</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.feedreader.owncloud.gschema.xml</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.feedreader.saved-state.gschema.xml</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.feedreader.share.gschema.xml</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.feedreader.ttrss.gschema.xml</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.feedreader.tweaks.gschema.xml</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/feedreader.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/16x16/actions/feed-add-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/16x16/actions/feed-arrow-up-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/16x16/actions/feed-refresh-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/16x16/actions/feed-remove-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/16x16/actions/feed-share-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/16x16/actions/feed-sidebar-arrow-down-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/16x16/actions/feed-sidebar-arrow-side-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/16x16/actions/feed-tag-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/feedreader.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/16x16/status/feed-article-read.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/16x16/status/feed-article-unread.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/16x16/status/feed-marked-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/16x16/status/feed-non-starred.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/16x16/status/feed-read-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/16x16/status/feed-starred.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/16x16/status/feed-unmarked-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/16x16/status/feed-unread-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/24x24/actions/feed-mark-read-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/24x24/apps/feedreader.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/24x24/status/feed-rss-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/24x24/status/feed-status-ok.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/32x32/actions/feed-share-evernote.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/32x32/actions/feed-share-instapaper.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/32x32/actions/feed-share-pocket.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/32x32/actions/feed-share-readability.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/feedreader.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/feedreader.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/feedreader.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/64x64/places/feed-service-feedly-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/64x64/places/feed-service-feedly.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/64x64/places/feed-service-inoreader-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/64x64/places/feed-service-inoreader.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/64x64/places/feed-service-oldreader-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/64x64/places/feed-service-oldreader.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/64x64/places/feed-service-owncloud-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/64x64/places/feed-service-owncloud.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/64x64/places/feed-service-ttrss-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/64x64/places/feed-service-ttrss.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/org.gnome.FeedReader.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/org.gnome.FeedReader.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/apps/org.gnome.FeedReader.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/org.gnome.FeedReader.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/org.gnome.FeedReader.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/org.gnome.FeedReader.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/org.gnome.FeedReader-symbolic.svg</Path>
             <Path fileType="localedata">/usr/share/locale</Path>
         </Files>
     </Package>
     <History>
-        <Update release="13">
-            <Date>2016-09-04</Date>
-            <Version>1.6.2</Version>
+        <Update release="15">
+            <Date>2017-02-13</Date>
+            <Version>2.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Will Featherston</Name>
+            <Email>bennzoid@gmail.com</Email>
         </Update>
     </History>
 </PISI>
