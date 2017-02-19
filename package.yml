@@ -1,14 +1,15 @@
 name       : feedreader
-version    : 2.0
-release    : 15
+version    : 2.0.1
+release    : 16
 source     :
-    - https://github.com/jangernert/FeedReader/archive/v2.0.tar.gz : eba631c2c1a644d815accb2234e72d161a9f45383c19d57c4fdda9ff1ee75135
+    - https://github.com/jangernert/FeedReader/archive/v2.0.1.tar.gz : cb61e61b5669f31fd440e6278b2cfc2ff5e47ecafb667b0f6b68663fb6bf3944
 license    : GPL-3.0
-summary    : FeedReader is a client for popular RSS-Web-Services such as TinyTinyRSS
-    or Feeldy.
+summary    : FeedReader is a client for popular RSS-Web-Services.
 component  : desktop
 description: |
-    FeedReader is a client for popular RSS-Web-Services such as TinyTinyRSS or Feeldy.
+    FeedReader is a client for popular RSS-Web-Services which supports:
+    - TinyTinyRSS
+    - Feeldy
 builddeps  :
     - pkgconfig(gee-0.8)
     - pkgconfig(goa-1.0)
