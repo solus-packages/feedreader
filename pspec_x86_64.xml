@@ -7,15 +7,19 @@
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>desktop</PartOf>
-        <Summary xml:lang="en">FeedReader is a client for popular RSS-Web-Services such as TinyTinyRSS or Feeldy.</Summary>
-        <Description xml:lang="en">FeedReader is a client for popular RSS-Web-Services such as TinyTinyRSS or Feeldy.
+        <Summary xml:lang="en">FeedReader is a client for popular RSS-Web-Services.</Summary>
+        <Description xml:lang="en">FeedReader is a client for popular RSS-Web-Services which supports:
+- TinyTinyRSS
+- Feeldy
 </Description>
         <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>feedreader</Name>
-        <Summary xml:lang="en">FeedReader is a client for popular RSS-Web-Services such as TinyTinyRSS or Feeldy.</Summary>
-        <Description xml:lang="en">FeedReader is a client for popular RSS-Web-Services such as TinyTinyRSS or Feeldy.
+        <Summary xml:lang="en">FeedReader is a client for popular RSS-Web-Services.</Summary>
+        <Description xml:lang="en">FeedReader is a client for popular RSS-Web-Services which supports:
+- TinyTinyRSS
+- Feeldy
 </Description>
         <PartOf>desktop</PartOf>
         <Files>
@@ -43,10 +47,12 @@
             <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/libinstapaper.so</Path>
             <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/libmail.so</Path>
             <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/libpocket.so</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/libtelegram.so</Path>
             <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/libtwitter.so</Path>
             <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/libwallabag.so</Path>
             <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/mail.plugin</Path>
             <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/pocket.plugin</Path>
+            <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/telegram.plugin</Path>
             <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/twitter.plugin</Path>
             <Path fileType="library">/usr/lib64/FeedReader/pluginsShare/wallabag.plugin</Path>
             <Path fileType="library">/usr/lib64/FeedReader/pluginsUI/feedbinUI.plugin</Path>
@@ -1217,6 +1223,11 @@
             <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.feedreader.owncloud.gschema.xml</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.feedreader.saved-state.gschema.xml</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.feedreader.share.gschema.xml</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.feedreader.share.instapaper.gschema.xml</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.feedreader.share.pocket.gschema.xml</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.feedreader.share.telegram.gschema.xml</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.feedreader.share.twitter.gschema.xml</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.feedreader.share.wallabag.gschema.xml</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.feedreader.ttrss.gschema.xml</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.feedreader.tweaks.gschema.xml</Path>
             <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/org.gnome.FeedReader.svg</Path>
@@ -1230,9 +1241,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="16">
-            <Date>2017-02-19</Date>
-            <Version>2.0.1</Version>
+        <Update release="17">
+            <Date>2017-02-25</Date>
+            <Version>2.0.2</Version>
             <Comment>Packaging update</Comment>
             <Name>Justin Zobel</Name>
             <Email>justin@solus-project.com</Email>
