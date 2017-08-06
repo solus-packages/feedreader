@@ -1,11 +1,11 @@
 name       : feedreader
 version    : 2.0.2
-release    : 18
+release    : 19
 source     :
     - https://github.com/jangernert/FeedReader/archive/v2.0.2.tar.gz : 949262912bc07f8d1ec72dfa1bbeafb0ed1cea992589e1ee5901e0630c714261
 license    : GPL-3.0
 summary    : FeedReader is a client for popular RSS-Web-Services.
-component  : desktop
+component  : network.news
 description: |
     FeedReader is a client for popular RSS-Web-Services which supports:
     - TinyTinyRSS
