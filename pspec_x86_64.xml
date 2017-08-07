@@ -6,7 +6,7 @@
             <Email>justin@solus-project.com</Email>
         </Packager>
         <License>GPL-3.0</License>
-        <PartOf>desktop</PartOf>
+        <PartOf>network.news</PartOf>
         <Summary xml:lang="en">FeedReader is a client for popular RSS-Web-Services.</Summary>
         <Description xml:lang="en">FeedReader is a client for popular RSS-Web-Services which supports:
 - TinyTinyRSS
@@ -21,7 +21,7 @@
 - TinyTinyRSS
 - Feeldy
 </Description>
-        <PartOf>desktop</PartOf>
+        <PartOf>network.news</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
             <Path fileType="library">/usr/lib64/FeedReader/libwebextension.so</Path>
@@ -1241,8 +1241,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="17">
-            <Date>2017-02-25</Date>
+        <Update release="20">
+            <Date>2017-08-07</Date>
             <Version>2.0.2</Version>
             <Comment>Packaging update</Comment>
             <Name>Justin Zobel</Name>
