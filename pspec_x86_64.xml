@@ -2,15 +2,15 @@
     <Source>
         <Name>feedreader</Name>
         <Packager>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>network.news</PartOf>
         <Summary xml:lang="en">FeedReader is a client for popular RSS-Web-Services.</Summary>
         <Description xml:lang="en">FeedReader is a client for popular RSS-Web-Services which supports:
 - TinyTinyRSS
-- Feeldy
+- Feedly
 </Description>
         <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
     </Source>
@@ -19,7 +19,7 @@
         <Summary xml:lang="en">FeedReader is a client for popular RSS-Web-Services.</Summary>
         <Description xml:lang="en">FeedReader is a client for popular RSS-Web-Services which supports:
 - TinyTinyRSS
-- Feeldy
+- Feedly
 </Description>
         <PartOf>network.news</PartOf>
         <Files>
@@ -90,6 +90,9 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.finance.yahoo.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.fivefilters.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.fok.nl.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.git</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.gitattributes</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.gitignore</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.hardware.info.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.ibm.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.ifeng.com.txt</Path>
@@ -97,15 +100,16 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.m.wikihow.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.metafilter.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.mozilla.org.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.myjoyonline.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.news.yahoo.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.nytimes.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.onliner.by.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.orf.at.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.peacefmonline.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.readthedocs.io.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.reuters.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.slashdot.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.smashingmagazine.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.stackexchange.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.stanford.edu.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.thueringer-allgemeine.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/.time.com.txt</Path>
@@ -128,6 +132,8 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/5by5.tv.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/7newsbelize.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/9gag.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/9to5mac.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/LICENSE.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/README.md</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/aachener-nachrichten.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/abc-luxe.com.txt</Path>
@@ -177,7 +183,9 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/appleinsider.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/appleweblog.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/archdaily.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/archive.pressthink.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/archiveofourown.org.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/arretsurimages.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/arstechnica.co.uk.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/arstechnica.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/articles.boston.com.txt</Path>
@@ -187,7 +195,6 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ascarter.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/astronews.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/asymco.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/au.businessinsider.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/au.news.yahoo.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/autoblog.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/autocar.co.uk.txt</Path>
@@ -211,14 +218,16 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/betanews.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/bez.es.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/biography.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/birthdayshoes.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/bit-tech.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/bitelia.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/bizjournals.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/bjango.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/bleacherreport.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/blog.arsln.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/blog.asmartbear.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/blog.cloudflare.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/blog.eleven-labs.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/blog.eng.xogrp.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/blog.fefe.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/blog.instagram.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/blog.instapaper.com.txt</Path>
@@ -230,9 +239,10 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/blog.renren.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/blog.sina.com.cn.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/blog.spu.edu.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/blog.trello.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/blog.trendmicro.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/blog.wells.ee.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/blog.xebia.fr.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/blogs.aljazeera.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/blogs.faz.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/blogs.forbes.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/blogs.hbr.org.txt</Path>
@@ -244,6 +254,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/bloomberg.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/bluetouff.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/boagworld.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/bohaishibei.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/boingboing.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/book.douban.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/bookforum.com.txt</Path>
@@ -257,9 +268,8 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/brandingstrategyinsider.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/brasil.elpais.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/brettterpstra.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/brightside.me.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/brisbanetimes.com.au.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/brokernews.com.au.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/brookings.edu.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/brooksreview.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/bt.no.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/buffed.de.txt</Path>
@@ -282,8 +292,8 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/cbn.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/cbsnews.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/chareidi.org.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/chefkoch.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/chinamining.org.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/choice.com.au.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/chomsky.info.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/chrisltd.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/christianitytoday.com.txt</Path>
@@ -302,7 +312,6 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/cmswire.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/cn.engadget.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/cn.reuters.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/cnet.com.au.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/cnet.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/cnn.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/code.activestate.com.txt</Path>
@@ -318,15 +327,14 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/computerbase.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/computerworld.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/computerworld.dk.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/contemporist.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/contrepoints.org.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/conversaciones.nokia.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/cooper.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/core77.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/counterpunch.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/crimemagazine.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/crimethinc.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/crn.de.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/crunchyroll.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/csmonitor.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/csnphilly.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/csoonline.com.txt</Path>
@@ -340,16 +348,17 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/dailydot.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/dailykos.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/dailymail.co.uk.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/dailymotion.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/dailysabah.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/dailystar.com.lb.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/dailytelegraph.com.au.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/dansdata.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/dantri.com.vn.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/daringfireball.net.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/daserste.ndr.de.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/dbazi.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/dcurt.is.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/deadline.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/deadspin.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/defomicron.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/deia.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/delong.typepad.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/democracynow.org.txt</Path>
@@ -357,7 +366,6 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/derbund.ch.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/derstandard.at.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/des-livres-pour-changer-de-vie.fr.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/designbuildsource.com.au.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/designsponge.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/designtagebuch.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/details.com.txt</Path>
@@ -392,13 +400,12 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/dropbox.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/drupal.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/dushumashang.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/eandt.theiet.org.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/dzone.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/eastoftheweb.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ebay.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ecetia.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/echo-online.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/econlog.econlib.org.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/economia.estadao.com.br.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/economie.gouv.fr.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/economist.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ecowatch.com.txt</Path>
@@ -408,6 +415,8 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/eetimes.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ekultura.hu.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/elance.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/elblogsalmon.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/elconfidencial.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/elderscrollsonline.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/elektroniknet.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/elmalpensante.com.txt</Path>
@@ -421,7 +430,6 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/entertainment.timesonline.co.uk.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/entwickler.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ericsuh.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/es.hu.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/escapistmagazine.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/esglobal.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/espacepolitique.revues.org.txt</Path>
@@ -431,6 +439,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/eternabuenosaires.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/eurogamer.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/evo.co.uk.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/eweek.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/explosm.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/expressen.se.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/extracine.com.txt</Path>
@@ -450,7 +459,6 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/findtheswagger.tumblr.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/finexpert.e15.cz.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/firstthings.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/fivechapters.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/fivefilters.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/fivethirtyeight.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/flyingmachinestudios.com.txt</Path>
@@ -459,6 +467,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/focus-numerique.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/focus.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/fok.nl.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/fokus.se.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/foley.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/folklore.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/food.com.txt</Path>
@@ -479,7 +488,6 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ftchinese.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/futura-sciences.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/futurezone.at.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/galwayindependent.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/gamasutra.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/gameblog.fr.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/gamechurch.com.txt</Path>
@@ -528,12 +536,12 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/gsmarena.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/gulfnews.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/guokr.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/gurumed.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/haberler.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/habrahabr.ru.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/hackersrepublic.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/hackmake.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/halo.bungie.org.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/hammers.theoffside.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/handelsblatt.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/hanselman.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/hardware-infos.com.txt</Path>
@@ -547,9 +555,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/heise.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/help.fivefilters.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/hemmings.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/heraldsun.com.au.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/hespress.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/hiamag.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/highscalability.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/hiiraan.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/hiperpop.com.txt</Path>
@@ -568,6 +574,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ht.ly.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/huffingtonpost.co.uk.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/huffingtonpost.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/huffingtonpost.fr.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/humantransit.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/hurriyet.com.tr.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/hvg.hu.txt</Path>
@@ -579,10 +586,8 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/idlewords.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/igen.fr.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/igeneration.fr.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ignoredbydinosaurs.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ilounge.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ilyabirman.ru.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/imasters.com.br.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/imgcert.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/in.rbth.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/inc.com.txt</Path>
@@ -591,7 +596,6 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/indiatimes.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/indiehackers.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/inessential.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/info.abril.com.br.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/infoq.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/informador.com.mx.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/information.dk.txt</Path>
@@ -602,7 +606,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/infzm.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/inhabitat.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/instagr.am.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/io9.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/interviewmagazine.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ipadclub.nl.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ipadplanet.nl.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/iphoneaddict.fr.txt</Path>
@@ -610,13 +614,13 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/iphonehacks.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/iphonetweak.fr.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/iplaysoft.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ippmedia.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/iso.500px.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/isource.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/it-connect.fr.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/itavisen.no.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/itmedia.co.jp.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/itnews.com.au.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/itsfoss.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/itstactical.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/itunes.apple.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/itwire.com.txt</Path>
@@ -629,8 +633,10 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/jdubuzz.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/jetzt.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/jetzt.sueddeutsche.de.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/jeuxvideo.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/jezebel.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/jjahnke.net.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/jneurosci.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/jobbank.gc.ca.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/joelonsoftware.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/jouire.com.txt</Path>
@@ -673,6 +679,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/lesnumeriques.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/letraslibres.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/libcom.org.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/liberation.fr.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/lifehacker.co.uk.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/lifehacker.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/lifestyle.inquirer.net.txt</Path>
@@ -690,6 +697,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/luminous-landscape.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/lupa.cz.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/luxuo.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/lvsl.fr.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/lwn.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/m.bbc.co.uk.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/m.douban.com.txt</Path>
@@ -712,7 +720,6 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/manager.co.th.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/manga-news.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/marco.org.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/marketingmag.com.au.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/marksdailyapple.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/martinfowler.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/mashable.com.txt</Path>
@@ -735,13 +742,13 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/minnpost.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/mirrorfootball.co.uk.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/mises.org.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/mitchellrepublic.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/mlb.mlb.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/mlb.sbnation.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/mlssoccer.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/mmo-champion.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/mnn.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/mno.hu.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/mobile.lemondeinformatique.fr.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/mobile.nytimes.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/mobile.twitter.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/mobilenet.cz.txt</Path>
@@ -750,18 +757,17 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/modernghana.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/momentumsaga.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/money.cnn.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/moneymanagement.com.au.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/monkeyzen.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/moo.nac.uci.edu.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/moonsault.de.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/mostpleasent.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/motherboard.vice.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/mothering.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/motherjones.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/motorfull.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/movie.douban.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/msdn.microsoft.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/msnbc.msn.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/mtlblog.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/muylinux.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/myfoxatlanta.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/myrecipes.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/n0where.net.txt</Path>
@@ -771,6 +777,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/nasa.gov.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/nbnnews.com.au.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/nbweekly.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ncbi.nlm.nih.gov.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/neh.gov.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/net-security.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/netmagazine.com.txt</Path>
@@ -784,9 +791,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/news.cnet.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/news.com.au.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/news.detik.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/news.menshealth.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/news.mynavi.jp.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/news.ninemsn.com.au.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/news.pixelistes.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/news.rambler.ru.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/news.techmeme.com.txt</Path>
@@ -817,7 +822,6 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/nzz.ch.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/o6asan.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/off.net.mk.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/omaha.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/omgubuntu.co.uk.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/omiliya.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/onlinewelten.com.txt</Path>
@@ -830,7 +834,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/origo.hu.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/oschina.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/outsideonline.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pakmedia.tv.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/oxfordamerican.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/palmbeachpost.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pandagon.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pandodaily.com.txt</Path>
@@ -846,25 +850,22 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pcworld.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/penny-arcade.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pentaxforums.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/perthnow.com.au.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/phastidio.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/philadelphiaeagles.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/philly.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/phonandroid.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/philstar.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/phoronix.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/photo.tutsplus.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/phototrend.fr.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/php.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pieria.co.uk.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pinterest.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pitchfork.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pittsburgh.pirates.mlb.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pittsburghlive.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pittsburghmagazine.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pittsburghpanthers.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pittscriptblog.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pjmedia.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/planet3dnow.de.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/planetsave.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/planetvita.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/playboy.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ploum.net.txt</Path>
@@ -898,29 +899,28 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/purpleplanetmedia.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/putaindecode.io.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pymotw.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/pérotin.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/qctimes.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/quantumdiaries.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/quechoisir.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/queerty.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/quora.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/qz.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/racjonalista.pl.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/radar.oreilly.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/radionz.co.nz.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/randsinrepose.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/rasgolatente.es.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/readability.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/readwriteweb.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/real.gr.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/rebooti.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/recipe.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/reddit.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/redeszone.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/redmondpie.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/reflets.info.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/renenekuda.cz.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/resume.se.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/reuters.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/revistapiaui.estadao.com.br.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/rezeptwelt.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/rhenus.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/robertsspaceindustries.com.txt</Path>
@@ -940,6 +940,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/salon.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/salzburg.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/sanpedrosun.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/sargasso.nl.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/saveyourself.ca.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/sayidaty.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/sbnation.com.txt</Path>
@@ -948,12 +949,14 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/scienceticker.info.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/scientificamerican.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/scilogs.de.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/scnsrc.me.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/scotusblog.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/scripting.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/searchenginejournal.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/searchengineland.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/seattletransitblog.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/secushare.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/secouchermoinsbete.fr.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/secushare.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/select.yeeyan.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/semiaccurate.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/seriouseats.com.txt</Path>
@@ -963,6 +966,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/sfgate.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/sfweekly.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/shabayek.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/shahrsakhtafzar.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/shawnblanc.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/shifteleven.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/siasat.pk.txt</Path>
@@ -980,7 +984,6 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/smbc-comics.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/sme.sk.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/smh.com.au.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/smh.drive.com.au.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/smithsonianmag.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/snip.ly.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/somethingawful.com.txt</Path>
@@ -988,27 +991,21 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/soundcity.tv.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/sourcebooks.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/spectrum.ieee.org.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/speirs.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/spiegel.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/spiil.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/spiked-online.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/spin.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/splatf.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/splitsider.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/sport.detik.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/sport365.fr.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/sports.espn.go.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/sports.yahoo.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/sprengsatz.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/sqlite.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/squashed.tumblr.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/srf.ch.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/stackoverflow.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/stalbansreview.co.uk.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/standard.co.uk.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/stephenfry.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/stlbeacon.org.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/stockholm.etc.se.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/stockholmsfria.se.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/straightdope.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/streetsblog.net.txt</Path>
@@ -1016,14 +1013,13 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/stumbleupon.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/subtraction.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/sueddeutsche.de.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/summitroute.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/sunshinecoastdaily.com.au.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/suntimes.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/svd.se.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/svt.se.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/sydsvenskan.se.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/symmetrymagazine.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/sz-magazin.sueddeutsche.de.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/sz.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/tabletmag.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/tagesanzeiger.ch.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/tagesschau.de.txt</Path>
@@ -1045,6 +1041,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/technologyreview.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/techpinions.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/techradar.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ted.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/telegraaf.nl.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/telegraph.co.uk.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/thanhnien.com.vn.txt</Path>
@@ -1053,8 +1050,6 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/theamericanscholar.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/theatlantic.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/theatlanticcities.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/theaustralian.com.au.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/thebostonchannel.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/thedailybeast.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/thedailymash.co.uk.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/thedisneyblog.com.txt</Path>
@@ -1079,7 +1074,6 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/thepioneerwoman.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/thepointmag.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/theregister.co.uk.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/theroot.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/therumpus.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/thesimpledollar.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/thespoiler.co.uk.txt</Path>
@@ -1090,7 +1084,6 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/theverge.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/theweek.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/thinkprogress.org.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/thisdaylive.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/thisiscolossal.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/tidbits.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/time.com.txt</Path>
@@ -1098,6 +1091,7 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/timeshighereducation.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/tipb.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/titanic-magazin.de.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/tldp.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/tnr.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/tofugu.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/tomdispatch.com.txt</Path>
@@ -1112,11 +1106,11 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/trailerzone.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/traningslara.se.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/triblive.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/truongtx.me.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/truthdig.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/tthfanfic.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/tuaw.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/tuhdo.github.io.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/turnoff.us.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/tvtropes.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/tweakers.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/twitter.com.txt</Path>
@@ -1154,21 +1148,21 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/vnexpress.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/voices.washingtonpost.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/volkskrant.nl.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/voltairenet.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/vox.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/vr-zone.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/vworker.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/waffle.wootest.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/warnerbros.fr.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/warriordudimanche.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/washingtoninstitute.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/washingtonmonthly.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/washingtonpost.com.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/watoday.com.au.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/web-libre.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/weblogs.asp.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/webmasters.googleblog.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/webupd8.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/webwereld.nl.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/weeklytimesnow.com.au.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/welt.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/westernadvocate.com.au.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/what-if.xkcd.com.txt</Path>
@@ -1179,7 +1173,6 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/wikitravel.org.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/will-self.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/winfuture.de.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/winrumors.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/wired.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/wired.de.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/wmpoweruser.com.txt</Path>
@@ -1195,20 +1188,19 @@
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/www3.imperial.ac.uk.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/wyborcza.pl.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/wz-newsline.de.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/xoeb.us.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/yated.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/xn--protin-bva.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ynet.co.il.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/yosko.net.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/yostivanich.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/yourerie.com.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/youtube.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/zdnet.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/ze.tt.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/zeit.de.txt</Path>
-            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/zerodistraction.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/zerohedge.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/zerokspot.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/zhihu.com.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/GrabberConfig/zive.cz.txt</Path>
+            <Path fileType="data">/usr/share/FeedReader/GrabberConfig/zoomit.ir.txt</Path>
             <Path fileType="data">/usr/share/FeedReader/org.gnome.FeedReader-autostart.desktop</Path>
             <Path fileType="data">/usr/share/appdata/org.gnome.FeedReader.appdata.xml</Path>
             <Path fileType="data">/usr/share/applications/org.gnome.FeedReader.desktop</Path>
@@ -1241,12 +1233,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="20">
-            <Date>2017-08-07</Date>
-            <Version>2.0.2</Version>
+        <Update release="21">
+            <Date>2017-10-08</Date>
+            <Version>2.0.2.2292</Version>
             <Comment>Packaging update</Comment>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>

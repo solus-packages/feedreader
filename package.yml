@@ -1,15 +1,15 @@
 name       : feedreader
-version    : 2.0.2
-release    : 20
+version    : 2.0.2.2292
+release    : 21
 source     :
-    - https://github.com/jangernert/FeedReader/archive/v2.0.2.tar.gz : 949262912bc07f8d1ec72dfa1bbeafb0ed1cea992589e1ee5901e0630c714261
+    - git|https://github.com/jangernert/FeedReader.git : b60a7da212e65a9e2f42f50a524015c52bf527a4
 license    : GPL-3.0
 summary    : FeedReader is a client for popular RSS-Web-Services.
 component  : network.news
 description: |
     FeedReader is a client for popular RSS-Web-Services which supports:
     - TinyTinyRSS
-    - Feeldy
+    - Feedly
 builddeps  :
     - pkgconfig(gee-0.8)
     - pkgconfig(goa-1.0)
@@ -26,7 +26,6 @@ builddeps  :
     - pkgconfig(webkit2gtk-4.0)
     - vala
 setup      : |
-    %patch -p1 <$pkgfiles/fix-vala.patch
     mkdir build
     cd build
     %cmake -DCMAKE_INSTALL_PREFIX=/usr -DWITH_LIBUNITY=OFF ..
