@@ -1,15 +1,14 @@
 name       : feedreader
-version    : 2.0.2.2292
-release    : 23
+version    : '2.2'
+release    : 24
 source     :
-    - git|https://github.com/jangernert/FeedReader.git : b60a7da212e65a9e2f42f50a524015c52bf527a4
-license    : GPL-3.0
-summary    : FeedReader is a client for popular RSS-Web-Services.
+    - git|https://github.com/jangernert/FeedReader.git : v2.2
+license    : GPL-3.0-or-later
+summary    : Modern desktop application designed to complement existing web-based RSS accounts
 component  : network.news
 description: |
-    FeedReader is a client for popular RSS-Web-Services which supports:
-    - TinyTinyRSS
-    - Feedly
+    FeedReader is a modern desktop application designed to complement existing web-based RSS accounts. It combines all the advantages of web based services like synchronisation across all your devices with everything you expect from a modern desktop application.
+libsplit   : no
 builddeps  :
     - pkgconfig(gee-0.8)
     - pkgconfig(goa-1.0)
@@ -26,12 +25,9 @@ builddeps  :
     - pkgconfig(webkit2gtk-4.0)
     - vala
 setup      : |
-    mkdir build
-    cd build
-    %cmake -DCMAKE_INSTALL_PREFIX=/usr -DWITH_LIBUNITY=OFF ..
+    %patch -p1 < $pkgfiles/Safely-parse-response-unread.patch
+    %meson_configure
 build      : |
-    cd build
-    %make
+    %ninja_build
 install    : |
-    cd build
-    %make_install
+    %ninja_install
