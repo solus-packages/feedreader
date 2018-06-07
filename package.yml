@@ -1,6 +1,6 @@
 name       : feedreader
 version    : '2.2'
-release    : 24
+release    : 25
 source     :
     - git|https://github.com/jangernert/FeedReader.git : v2.2
 license    : GPL-3.0-or-later
@@ -24,6 +24,8 @@ builddeps  :
     - pkgconfig(sqlite3)
     - pkgconfig(webkit2gtk-4.0)
     - vala
+rundeps    :
+    - gnome-keyring
 setup      : |
     %patch -p1 < $pkgfiles/Safely-parse-response-unread.patch
     %meson_configure
