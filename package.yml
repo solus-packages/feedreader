@@ -1,8 +1,8 @@
 name       : feedreader
-version    : '2.2'
-release    : 25
+version    : 2.2.1
+release    : 26
 source     :
-    - git|https://github.com/jangernert/FeedReader.git : v2.2
+    - https://github.com/jangernert/FeedReader/archive/2.2.1.tar.gz : 4dca0fe4622cebeb7cc7d3138d404e2b35877036da7588dd6867ac90a5763cf7
 license    : GPL-3.0-or-later
 summary    : Modern desktop application designed to complement existing web-based RSS accounts
 component  : network.news
@@ -27,7 +27,6 @@ builddeps  :
 rundeps    :
     - gnome-keyring
 setup      : |
-    %patch -p1 < $pkgfiles/Safely-parse-response-unread.patch
     %meson_configure
 build      : |
     %ninja_build
