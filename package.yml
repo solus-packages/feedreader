@@ -1,8 +1,8 @@
 name       : feedreader
-version    : 2.2.1
-release    : 26
+version    : 2.6.1
+release    : 27
 source     :
-    - https://github.com/jangernert/FeedReader/archive/2.2.1.tar.gz : 4dca0fe4622cebeb7cc7d3138d404e2b35877036da7588dd6867ac90a5763cf7
+    - https://github.com/jangernert/FeedReader/archive/v2.6.1.tar.gz : 9dabf75fe48693ad94f266927c38f5fc8aa442c0e79fa869a80cdb3ec4c44c6c
 license    : GPL-3.0-or-later
 summary    : Modern desktop application designed to complement existing web-based RSS accounts
 component  : network.news
@@ -13,13 +13,12 @@ builddeps  :
     - pkgconfig(gee-0.8)
     - pkgconfig(goa-1.0)
     - pkgconfig(gstreamer-pbutils-1.0)
-    - pkgconfig(gtk+-3.0)
+    - pkgconfig(gumbo)
     - pkgconfig(json-glib-1.0)
     - pkgconfig(libcurl)
     - pkgconfig(libnotify)
     - pkgconfig(libpeas-1.0)
     - pkgconfig(libsecret-1)
-    - pkgconfig(libsoup-2.4)
     - pkgconfig(rest-0.7)
     - pkgconfig(sqlite3)
     - pkgconfig(webkit2gtk-4.0)
