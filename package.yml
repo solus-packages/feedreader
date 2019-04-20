@@ -1,10 +1,11 @@
 name       : feedreader
 version    : 2.8.2
-release    : 30
+release    : 31
 source     :
     - https://github.com/jangernert/FeedReader/archive/v2.8.2.tar.gz : 40ec53a5bdb745909b486092fb0c91686b2f1a76fce5416514f62c3f3617f612
 license    : GPL-3.0-or-later
-summary    : Modern desktop application designed to complement existing web-based RSS accounts
+summary    : Modern desktop application designed to complement existing web-based
+    RSS accounts
 component  : network.news
 description: |
     FeedReader is a modern desktop application designed to complement existing web-based RSS accounts. It combines all the advantages of web based services like synchronisation across all your devices with everything you expect from a modern desktop application.
