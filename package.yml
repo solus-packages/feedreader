@@ -1,8 +1,8 @@
 name       : feedreader
-version    : 2.9.2
-release    : 33
+version    : 2.10.0
+release    : 34
 source     :
-    - https://github.com/jangernert/FeedReader/archive/v2.9.2.tar.gz : 281a5b5482f0d08fbfec21762756a819299e53ef3e9216aab88927e707e3de26
+    - https://github.com/jangernert/FeedReader/archive/v2.10.0.tar.gz : fd10d2d2dc9c20c259d672634e5e100d10f0fb730e0687e1b3c2423224901a2c
 license    : GPL-3.0-or-later
 summary    : Modern desktop application designed to complement existing web-based RSS accounts
 component  : network.news
