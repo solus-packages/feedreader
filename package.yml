@@ -1,6 +1,6 @@
 name       : feedreader
 version    : 2.10.0
-release    : 35
+release    : 36
 source     :
     - https://github.com/jangernert/FeedReader/archive/v2.10.0.tar.gz : fd10d2d2dc9c20c259d672634e5e100d10f0fb730e0687e1b3c2423224901a2c
 license    : GPL-3.0-or-later
